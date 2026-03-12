@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Website</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        main {
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    Willkommen auf meiner Website
+</header>
+
+<main>
+    <h1>Hallo 👋</h1>
+    <p>Diese Website läuft über mich.</p>
+
+    <button onclick="message()">Klick mich</button>
+</main>
+
+<script>
+function message() {
+    alert("Willkommen auf meiner Website!");
+}
+</script>
+
+</body>
+</html>
